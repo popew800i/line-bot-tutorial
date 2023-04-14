@@ -2,7 +2,7 @@ services:
 - type: web
   name: line-bot-python
   env: python
-  repo: https://github.com/line/line-bot-sdk-python.git
+  repo: https://github.com/popew800i/line-bot-tutorial.git
   buildCommand: pip install gunicorn -r requirements.txt
   startCommand: python app.py
   plan: free
